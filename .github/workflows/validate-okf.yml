@@ -1,0 +1,23 @@
+name: Validate OKF bundle
+
+on:
+  push:
+    paths: ["okf/**", "integration/**", "scripts/**"]
+  pull_request:
+    paths: ["okf/**", "integration/**", "scripts/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Rebuild indexes and FAQPage, fail if they drift
+        run: |
+          python scripts/build_okf.py
+          git diff --exit-code -- okf integration/schema/faqpage.jsonld
+      - name: Validate conformance and house rules
+        run: python scripts/validate_okf.py
