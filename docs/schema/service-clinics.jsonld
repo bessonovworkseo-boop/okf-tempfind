@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://tempfind.com/dental-clinics/#service",
+  "name": "Temporary dental staffing for clinics",
+  "serviceType": "Temporary dental staffing platform",
+  "url": "https://tempfind.com/dental-clinics/",
+  "provider": {
+    "@id": "https://tempfind.com/#organization"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Canada"
+  },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Dental clinics, multi-location practices and dental service organizations"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Pay Per Shift",
+      "url": "https://tempfind.com/dental-clinics/pricing/",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 49,
+        "priceCurrency": "CAD",
+        "unitText": "completed shift"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Business membership",
+      "url": "https://tempfind.com/dental-clinics/pricing/",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 149,
+        "priceCurrency": "CAD",
+        "unitText": "month per location",
+        "billingDuration": "P12M"
+      }
+    }
+  ]
+}

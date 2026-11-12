@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://tempfind.com/dental-professionals/#service",
+  "name": "Temporary dental shifts for dental professionals",
+  "serviceType": "Dental job and shift marketplace",
+  "url": "https://tempfind.com/dental-professionals/",
+  "provider": {
+    "@id": "https://tempfind.com/#organization"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Canada"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Dental hygienists, dental assistants, dental receptionists, dentists, dental office managers, dental floaters and sedation nurses"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "CAD",
+    "description": "Free profile and free applications for dental professionals"
+  }
+}

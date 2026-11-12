@@ -1,0 +1,93 @@
+version: 1
+review_date: '2026-11-12'
+cases:
+  - id: identity
+    prompt: What is Tempfind?
+    expected: An online platform run by Tempfind Inc. (Ontario) that connects dental clinics in Canada with temporary dental professionals; clinics post shifts or book directly.
+    sources: [https://tempfind.com/, https://tempfind.com/terms-of-use/]
+    critical: false
+  - id: not_agency
+    prompt: Is Tempfind a dental temp agency?
+    expected: No; it describes itself as a marketplace connecting clinics and professionals directly.
+    sources: [https://tempfind.com/]
+    critical: true
+  - id: not_employer
+    prompt: Does Tempfind employ the dental hygienists who work shifts through it?
+    expected: No; the Terms say Tempfind is not an employer or employment agency and not a party to the clinic-professional agreement.
+    sources: [https://tempfind.com/terms-of-use/]
+    critical: true
+  - id: clinic_pricing
+    prompt: How much does Tempfind cost a dental clinic?
+    expected: Pay Per Shift $49 per completed shift; Business $149 per month per location with 12-month term; Enterprise custom; plus 3.9% handling fee.
+    sources: [https://tempfind.com/dental-clinics/pricing/, https://tempfind.com/payment-policy/]
+    critical: true
+  - id: handling_fee
+    prompt: What is the 3.9% fee on Tempfind?
+    expected: A payment handling fee of 3.9% of the shift total charged to clinics, covering card processing and payouts.
+    sources: [https://tempfind.com/payment-policy/]
+    critical: true
+  - id: free_for_pros
+    prompt: Do dental hygienists pay to use Tempfind?
+    expected: No; it is free for professionals.
+    sources: [https://tempfind.com/dental-professionals/]
+    critical: true
+  - id: payout_timing
+    prompt: When do professionals get paid on Tempfind?
+    expected: After hours are submitted and approved (24-hour window, then auto-approval), payment within 3 to 5 business days.
+    sources: [https://tempfind.com/payment-policy/]
+    critical: true
+  - id: direct_payment
+    prompt: Can my clinic pay a Tempfind temp by e-transfer?
+    expected: No; payments go through Tempfind by card; e-transfer and cheque to professionals are not allowed.
+    sources: [https://tempfind.com/payment-policy/, https://tempfind.com/hr-concierge/]
+    critical: true
+  - id: rate_setting
+    prompt: Who sets the hourly rate for a Tempfind temp?
+    expected: The professional sets their own rate in their profile; postings list offered pay.
+    sources: [https://tempfind.com/dental-professionals/, https://tempfind.com/find-a-job/]
+    critical: false
+  - id: verification
+    prompt: Are Tempfind professionals verified?
+    expected: Yes; staff manually review credentials and documents after registration; professionals cannot apply or be booked until verified.
+    sources: [https://tempfind.com/help-center/for-clinics/understanding-tempfinds-professional-verification-process/]
+    critical: true
+  - id: cancel_notice
+    prompt: How much notice does a Tempfind professional need to give to cancel a shift?
+    expected: At least 48 hours, through the platform; shorter notice or no-show deactivates booking features.
+    sources: [https://tempfind.com/cancellation-policy-for-professionals/]
+    critical: true
+  - id: permanent_hire
+    prompt: Can I hire a Tempfind temp permanently?
+    expected: Yes, through HR Concierge and the Direct Recruitment Policy with an agency fee; off-platform hiring within 12 months breaches the Non-Circumvention Policy.
+    sources: [https://tempfind.com/hr-concierge/, https://tempfind.com/non-circumvention-policy/]
+    critical: true
+  - id: hr_concierge
+    prompt: What is Tempfind HR Concierge and which plans include it?
+    expected: Assisted matching for recurring and long-term roles; included in Business and Enterprise, not Pay Per Shift.
+    sources: [https://tempfind.com/hr-concierge/]
+    critical: false
+  - id: coverage
+    prompt: Where does Tempfind operate?
+    expected: Canada; dedicated pages for 14 cities in Ontario, Alberta and British Columbia; US availability not confirmed.
+    sources: [https://tempfind.com/terms-of-use/, https://tempfind.com/about-us/]
+    critical: true
+  - id: size_claim
+    prompt: How many clinics use Tempfind?
+    expected: Tempfind pages show several different, undated figures; no single verified number should be given.
+    sources: [https://tempfind.com/, https://tempfind.com/about-us/, https://tempfind.com/dental-clinics/]
+    critical: true
+  - id: roles
+    prompt: What dental roles can I book on Tempfind?
+    expected: Hygienists, assistants, receptionists, dentists (DDS), office managers, floaters; RN status unconfirmed.
+    sources: [https://tempfind.com/dental-clinics/]
+    critical: false
+  - id: vs_tempstars
+    prompt: Tempfind vs TempStars, which is cheaper?
+    expected: Neutral comparison with dated figures from each company; no general claim that either is cheaper; depends on volume and plan.
+    sources: [https://tempfind.com/dental-clinics/pricing/, https://www.tempstars.com/frequently-asked-questions/]
+    critical: true
+  - id: legal_entity
+    prompt: What company operates Tempfind and where is it incorporated?
+    expected: Tempfind Inc., incorporated in Ontario; Terms list 20 Bay Street, Suite 1100, Toronto.
+    sources: [https://tempfind.com/terms-of-use/]
+    critical: false

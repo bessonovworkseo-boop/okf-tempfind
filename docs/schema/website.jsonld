@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://tempfind.com/#website",
+  "url": "https://tempfind.com/",
+  "name": "Tempfind",
+  "inLanguage": "en-CA",
+  "publisher": {
+    "@id": "https://tempfind.com/#organization"
+  }
+}

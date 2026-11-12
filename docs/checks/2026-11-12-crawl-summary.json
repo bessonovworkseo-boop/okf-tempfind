@@ -1,0 +1,29 @@
+{
+  "crawl_tool": "Screaming Frog SEO Spider (internal_html export)",
+  "crawl_window_local_time": [
+    "2026-11-12 13:30:50",
+    "2026-11-12 13:41:41"
+  ],
+  "urls_total": 954,
+  "status_codes": {
+    "200": 952,
+    "301": 1,
+    "404": 1
+  },
+  "indexable": 918,
+  "non_indexable": 36,
+  "indexable_by_section": {
+    "professionals": 548,
+    "find-a-job": 195,
+    "help-center": 66,
+    "blog": 61,
+    "dental-insights": 12,
+    "dental-clinics": 2
+  },
+  "single_page_sections": 34,
+  "role_city_pages": 741,
+  "city_slugs": 276,
+  "city_staffing_pages": 14,
+  "help_center_articles": 63,
+  "blog_posts": 61
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": null,
+  "case_id": null,
+  "model": null,
+  "model_version": null,
+  "run_at": null,
+  "mode": null,
+  "exact_prompt": null,
+  "repo_commit": null,
+  "answer": null,
+  "sources_cited": [],
+  "required_facts_total": null,
+  "required_facts_present": null,
+  "checkable_claims_total": null,
+  "correct_checkable_claims": null,
+  "critical_errors": [],
+  "unsupported_guarantees": [],
+  "reviewer": null,
+  "record_status": "template-not-an-executed-run"
+}

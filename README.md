@@ -1,48 +1,59 @@
-# Tempfind OKF knowledge bundle
+# Tempfind Open Knowledge Format bundle
 
-Open Knowledge Format (OKF) v0.2 bundle for tempfind.com: source-of-truth facts about Tempfind Inc. and its dental staffing platform in Canada, written as linked Markdown with YAML frontmatter for AI agents.
+Knowledge about Tempfind Inc. and the Tempfind dental staffing platform in Canada, following [Open Knowledge Format v0.2](spec.md). Start with the [English reference](markets/en.md) or the [bundle index](index.md).
 
-Target URL: `https://tempfind.com/okf/` (entry point `https://tempfind.com/okf/index.md`).
+## Scope and trust
 
-## Repository layout
+This repository holds reviewed public records, drafts awaiting confirmation and editorial research. Being in the repository does not make a claim verified. Current policies on tempfind.com take precedence.
 
-| Path | Purpose | Deployed to site |
-|---|---|---|
-| `okf/` | The OKF bundle. Only this folder is copied to the web root. | Yes, as `/okf/` |
-| `okf/index.md` | Root index with `okf_version: "0.2"` | Yes |
-| `okf/log.md` | Update history, newest first | Yes |
-| `integration/llms-txt-section.md` | Block to append to `/llms.txt` | Manually |
-| `integration/server/` | Apache and Nginx rules for serving `/okf/` | Server config |
-| `integration/schema/` | JSON-LD reference for WordPress page templates (Organization, WebSite, Service, FAQPage) | Into HTML pages, not into `/okf/` |
-| `scripts/build_okf.py` | Rebuilds index files, Help Center and guides lists, FAQPage JSON-LD | No |
-| `scripts/validate_okf.py` | OKF conformance and house-rule checks | No |
-| `docs/PR_DESCRIPTION.md` | Review notes, open questions, site issues found | No |
+`verified.by: claude/source-review` records an automated reading of the cited public pages on the stated date. It is not Tempfind approval. Record a real Tempfind review separately, with a role-based actor such as `human:tempfind-ops`. See [maintenance](governance/maintenance.md) and [open questions](governance/open-questions.md).
 
-The repository README and docs live outside `okf/` on purpose: in OKF every `.md` file inside the bundle other than `index.md` and `log.md` is a concept.
+`competitors/` and `internal/seo/` are labelled `internal-editorial` and are excluded from the public export. The label is not access control: if this repository is public, so are those files.
 
-## Bundle rules
+## Structure
 
-- Every concept has `type`, `title`, `description`, `resource` (the live page it summarizes), `sources`, `generated`, `status` and `stale_after`.
-- `verified` is added only after a named Tempfind reviewer checks the facts, for example `verified: [{ by: "human:tempfind-ops", at: "2027-01-15T00:00:00Z" }]`. Use a role, not a personal email.
-- Concepts start as `status: draft`. Set `status: stable` after verification.
-- Unconfirmed facts are written as `[NEEDS CONFIRMATION]`.
-- No marketing superlatives, no unverified statistics, no competitor names.
-- Dates use 2026 as the current year. Past dates appear only as policy history.
+| Folder | Contents |
+|---|---|
+| `brand/` | Company facts, wording rules, reported metrics |
+| `products/` | Services for clinics and professionals, HR Concierge, pricing |
+| `concepts/` | Roles, verification, platform vs agency, glossary |
+| `guides/` | How Tempfind works, step by step |
+| `destinations/` | Cities, provinces, Ottawa |
+| `policies/` | Terms, payment, cancellation and non-circumvention summaries |
+| `faq/` | Ten topic FAQs |
+| `citations/` | Official sources, Help Center and blog lists |
+| `markets.md`, `markets/` | Language and market inventory, English reference |
+| `internal-links/` | Entity relationship map |
+| `competitors/` | Neutral competitor profiles (editorial) |
+| `internal/seo/` | Site issues, city slugs, content overlap (editorial) |
+| `governance/` | Maintenance rules, data model, open questions, evaluation protocol |
+| `evaluations/` | AI answer test cases and result template |
+| `docs/` | Publication plan, site follow-up, server rules, JSON-LD, review notes, crawl summary |
+| `scripts/`, `tests/` | Build, validation, export and tests |
 
-## Update workflow
+## Validate
 
-1. Edit or add concept files in `okf/`.
-2. Run `python3 scripts/build_okf.py --crawl internal_html.csv` (or without `--crawl` to rebuild indexes and FAQPage only).
-3. Run `python3 scripts/validate_okf.py --crawl internal_html.csv` and fix errors.
-4. Add a dated entry at the top of `okf/log.md`.
-5. Upload `okf/` to the site web root.
+```bash
+python -m pip install -r requirements.txt
+python scripts/build.py
+python scripts/validate.py
+python -m unittest discover -s tests -v
+```
 
-Review quarterly, and immediately after any change to pricing, policies, roles or city pages. Each concept's `stale_after` date marks when it must be rechecked.
+With a Screaming Frog `internal_html.csv` export, `python scripts/build.py --crawl internal_html.csv` refreshes the Help Center and blog lists, and `python scripts/validate.py --crawl internal_html.csv` flags any tempfind.com URL that is no longer a 200 indexable page. Validation does not prove factual accuracy.
 
-## Deployment checklist
+## Export for https://tempfind.com/okf/
 
-- `https://tempfind.com/okf/index.md` returns 200 with `Content-Type: text/markdown; charset=utf-8`.
-- `/okf/` is not blocked in `robots.txt`.
-- `X-Robots-Tag: noindex` is sent for `/okf/` files.
-- `/okf/` is not in the XML sitemap.
-- `/llms.txt` contains the Knowledge bundle section.
+```bash
+python scripts/export_public.py --out dist/okf
+```
+
+Only public, stable, verified and fresh records are exported. The export is a conformant OKF bundle with its own `index.md`, `log.md` and `manifest.json`. Records past `stale_after` drop out until they are rechecked. Deployment steps: [docs/publication.md](docs/publication.md).
+
+## Website follow-up
+
+Repository changes do not change tempfind.com, its llms.txt, robots rules or Schema.org. See [site follow-up](docs/site-follow-up.md). No AI crawling, citation or recommendation is promised by publishing the bundle.
+
+## Licensing
+
+The bundled [specification](spec.md) is from GoogleCloudPlatform/open-knowledge-format under the Apache-2.0 license; see [docs/OKF-LICENSE.txt](docs/OKF-LICENSE.txt). No license for Tempfind content is implied.

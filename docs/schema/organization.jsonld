@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://tempfind.com/#organization",
+  "name": "Tempfind",
+  "legalName": "Tempfind Inc.",
+  "url": "https://tempfind.com/",
+  "description": "Online platform that connects dental clinics in Canada with temporary dental professionals.",
+  "email": "info@tempfind.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "20 Bay Street, Suite 1100",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "postalCode": "M5J 2N8",
+    "addressCountry": "CA"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Canada"
+  },
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Igor Shekaroff",
+      "jobTitle": "Co-Founder and CEO"
+    },
+    {
+      "@type": "Person",
+      "name": "Aleksandra Kovtanuka",
+      "jobTitle": "Co-Founder and Director of Recruitment"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/Tempfind",
+    "https://www.instagram.com/temp.find/",
+    "https://www.facebook.com/people/Tempfind/100083159603560/"
+  ]
+}
