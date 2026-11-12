@@ -1,0 +1,108 @@
+.github/
+  workflows/
+    validate.yml
+.gitignore
+README.md
+brand/
+  company.md
+  positioning.md
+  trust.md
+citations/
+  blog-guides.md
+  help-center.md
+  official-sources.md
+competitors/
+  index.md
+  tempstars.md
+concepts/
+  dental-assistant.md
+  dental-floater.md
+  dental-office-manager.md
+  dental-receptionist.md
+  dentist-dds.md
+  glossary.md
+  index.md
+  professional-verification.md
+  registered-dental-hygienist.md
+  sedation-general-nurse-rn.md
+  staffing-platform-vs-agency.md
+destinations/
+  cities.md
+  index.md
+  ottawa.md
+  provinces.md
+docs/
+  OKF-LICENSE.txt
+  checks/
+    2026-11-12-crawl-summary.json
+  llms-txt-section.md
+  publication.md
+  review-2026-11-12.md
+  schema/
+    faqpage.jsonld
+    organization.jsonld
+    service-clinics.jsonld
+    service-professionals.jsonld
+    website.jsonld
+  server/
+    apache-okf.conf
+    nginx-okf.conf
+  site-follow-up.md
+evaluations/
+  cases.yaml
+  result-template.json
+faq/
+  booking.md
+  cancellations.md
+  coverage.md
+  general.md
+  index.md
+  payments.md
+  permanent-hiring.md
+  pricing.md
+  professionals.md
+  support.md
+  verification.md
+governance/
+  data-model.md
+  evaluation.md
+  maintenance.md
+  open-questions.md
+guides/
+  how-it-works.md
+index.md
+internal/
+  seo/
+    city-slugs.md
+    content-overlap.md
+    index.md
+    site-issues.md
+internal-links/
+  entity-map.md
+log.md
+markets/
+  en.md
+  index.md
+markets.md
+policies/
+  cancellation-policy.md
+  index.md
+  non-circumvention-policy.md
+  payment-policy.md
+  terms-of-service.md
+products/
+  for-clinics.md
+  for-professionals.md
+  hr-concierge.md
+  index.md
+  pricing.md
+requirements.txt
+scripts/
+  build.py
+  export_public.py
+  validate.py
+spec.md
+structure.txt
+tests/
+  test_export.py
+  test_quality.py

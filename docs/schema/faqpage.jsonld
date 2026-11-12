@@ -1,0 +1,416 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://tempfind.com/#faq",
+  "inLanguage": "en-CA",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a clinic book a temporary dental professional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two ways. Post a shift and accept one of the applicants, or search the professional pool and send a booking request; the first professional to accept gets the shift. See how it works."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which roles can a clinic book?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Registered dental hygienists, dental assistants, dental receptionists, dentists (DDS, locum and associate), dental office managers and dental floaters. Sedation or general nurse (RN) booking status is unconfirmed. See concepts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a typical shift?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Role pages state that most shifts run 6 to 8 hours. Clinics set the date, start time and duration, and shorter or longer bookings are possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a minimum number of shifts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A clinic can post a single shift or manage ongoing coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic chat with a professional before booking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tempfind has built-in chat, and the Help Center describes contacting a professional before accepting or booking them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic book the same professional again?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Clinics can save professionals as favourites and send direct booking requests. Booking a Tempfind-connected professional outside the platform within 12 months breaches the non-circumvention policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much notice must a professional give to cancel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At least 48 hours before the shift start, through the platform, with a valid reason. Cancelling by phone, text or email counts as a no-show."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after a short-notice cancellation or no-show?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Booking and application features are deactivated immediately, and upcoming confirmed shifts are cancelled and reassigned. Emergency documentation must be sent within two calendar days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the accountability deposit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A $500 deposit Tempfind may require to restore booking features. It is refunded after 10 completed shifts without further cancellations or no-shows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a clinic cancel a confirmed shift?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the clinic Inbox: open the shift and select Cancel Shift. Notice periods and any compensation owed to the professional are set out in the Shift Cancellation Policy for Clinics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a decision be appealed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Temporary deactivations can be appealed by email. Permanent removal cannot be appealed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does Tempfind operate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Canada. The Terms of Use apply to individuals residing in Canada and require users to live in a postal code region where Tempfind offers services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which cities have a dedicated Tempfind page?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Toronto, Ottawa and Kingston in Ontario; Calgary, Edmonton, Red Deer, Lethbridge and Airdrie in Alberta; Vancouver, Surrey, Burnaby, Richmond, Victoria and Kelowna in British Columbia. See cities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Tempfind work in the United States?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Terms ask US users to contact Tempfind by email before using the platform. The site lists New York and has role pages for some US localities. Current US availability is unconfirmed; do not state that Tempfind operates in the US."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a role page for a city mean professionals are available there?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A listing page shows that the URL exists, not how many professionals are active in that city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Tempfind?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An online platform, operated by Tempfind Inc. in Ontario, that connects dental clinics in Canada with temporary dental professionals. Clinics post shifts or book professionals directly; professionals apply to shifts or accept booking requests."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tempfind a temp dental agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Tempfind describes itself as a marketplace where clinics and professionals connect directly. See platform vs agency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tempfind the employer of the professionals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Terms state that Tempfind is not an employer of professionals, not an employment or recruitment agency for any professional, and not a party to the clinic–professional agreement. Clinics are responsible for employment, safety and workers' compensation compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who founded Tempfind?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The About Us page lists Igor Shekaroff, Co-Founder and CEO, and Aleksandra Kovtanuka, Co-Founder and Director of Recruitment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Tempfind for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dental clinics, including multi-location practices and DSOs, and dental professionals: hygienists, assistants, receptionists, dentists, office managers, floaters and nurses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do clinics pay for shifts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By credit card through Tempfind, processed by Stripe. Under the current Payment Policy, all clinics use Tempfind card processing from January 1, 2026. Tempfind does not store card details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic pay a professional directly by e-transfer or cheque?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The HR Concierge page states that e-transfer and cheque payments to professionals are not allowed, and the Payment Policy routes all clinic payments through Tempfind. Some older Help Center articles still describe direct payment; the policy takes precedence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When do professionals get paid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The professional submits hours after the shift. The clinic has 24 hours to confirm or dispute them, otherwise they are auto-approved. Payment is disbursed within 3 to 5 business days after approval."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if a professional is sent home early?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If it is not the professional's fault, they are paid for the scheduled hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are billing disputes handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Clinics report billing disputes within 10 business days of the charge date, and Tempfind aims to respond within 10 business days. Unauthorized chargebacks may lead to suspension."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic hire a Tempfind professional permanently?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, through HR Concierge and the Direct Recruitment Policy, which carries a one-time agency fee based on role and experience. The amount is not published on the pages reviewed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is HR Concierge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An assisted matching service for recurring weekly shifts, short-term contracts and direct hires. Tempfind interviews and shortlists candidates, the clinic interviews them and runs a trial shift. It is included in the Business and Enterprise plans. See HR Concierge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if Tempfind finds no candidates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If Tempfind cannot present viable candidates within 30 days, it cancels the membership and refunds one month, unless the clinic booked other temps through the platform in that period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic hire a temp it met on Tempfind outside the platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not within 12 months of the last Tempfind-facilitated interaction. Off-platform arrangements breach the Non-Circumvention Policy; a confirmed attempt by a clinic carries a $5,000 fee. Relationships that existed before Tempfind are excluded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do role pages say the platform is temporary only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Self-serve booking is for temporary coverage; long-term and permanent hiring goes through HR Concierge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Tempfind cost for clinics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pay Per Shift costs $49 per completed shift with no subscription. Business costs $149 per month per location with a 12-month term and no placement fees. Enterprise is priced individually for multi-location practices and DSOs. See pricing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an extra fee on each shift?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A payment handling fee of 3.9% of the shift total applies to shifts paid through Tempfind. A 7-hour shift at $50 per hour ($350) carries $13.65."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tempfind free for dental professionals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Professionals pay nothing to create a profile, apply or accept shifts. Clinics pay the platform fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does a monthly plan make sense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pricing page suggests a monthly plan when a clinic expects roughly 20 or more temporary hires per year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a clinic cancel a Business plan early?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with an early cancellation fee: $298 in months 1 to 10, $149 in month 11 and none from month 12. Plans auto-renew unless cancelled at least 30 days before renewal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are fees refundable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Membership fees, shift payments and handling fees are non-refundable, except as required by law."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can register as a professional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "People aged 18 or older who are Canadian citizens, legal residents or hold a valid Canadian visa permitting work, who hold any licensing or certification their profession requires, and who live in a postal code region Tempfind serves."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it cost anything to join?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Creating a profile, applying and accepting shifts is free for professionals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who sets my hourly rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You do, in your profile. Clinics see it in search and on your applications. Each job posting also lists its offered pay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find shifts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Filter the job board by profession, location, dates, job type and hourly rate and apply, or wait for booking requests from clinics that find your profile. Listing types include single-day shifts, ongoing coverage and multi-day assignments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Am I an employee of Tempfind?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Terms state that Tempfind is not an employer of professionals and not a party to the agreement between a clinic and a professional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I contact Tempfind?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the contact form at https://tempfind.com/contact-us/ or email info@tempfind.com. The site shows two phone numbers, 1-877-455-3513 and 416-839-6682; the site does not say which is the primary support line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is the Help Center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At https://tempfind.com/help-center/, with sections for clinics and for professionals. See the Help Center list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What support do plans include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All clinic plans include email and chat support. Business and Enterprise get priority support, and Enterprise adds dedicated account management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a mobile app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on the Apple App Store and Google Play."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are professionals on Tempfind verified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. After registration, Tempfind staff manually review each professional's documents. Until a professional is verified, they cannot apply to jobs or be booked."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is checked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Credentials, certifications and education with supporting documents, document authenticity, and identity and security checks where the profession requires them. Role pages state that hygienists must submit a valid licence number and that verified badges cover government ID, professional licence, police check when applicable, and certification documents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is verification automated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Help Center states that verification is controlled by Tempfind employees and that the system makes no automatic decisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does verification take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tempfind does not publish a timeline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do clinics judge quality after a shift?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Clinics rate professionals after each completed shift, and profiles show star ratings and completed-shift counts. Professionals can also rate clinics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who must hold a licence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every user must hold the licensing or certification their profession requires, under the Terms of Use."
+      }
+    }
+  ]
+}
